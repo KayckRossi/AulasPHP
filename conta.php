@@ -13,7 +13,7 @@ class Conta
     //diminui o saldo em quantia
     function retirar ($quantia)
     {
-        if (quantia > 0){
+        if ($quantia > 0){
             $this-> saldo -=$quantia;
         }
     }
