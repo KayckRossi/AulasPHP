@@ -24,6 +24,7 @@ echo "{$carlos-> Nome} possui {$carlos-> Idade} anos \n";
 
 $carlos ->Envelhecer(1);
 echo "{$carlos-> Nome} possui {$carlos-> Idade} anos \n";
+//fwfw
 
 #criação do objeto $conta_carlos
 
