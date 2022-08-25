@@ -30,7 +30,7 @@ class Conta
     function obterSaldo(){
         return $this->saldo;
     }
-}
+
 
 //metódo construtor inicializa propriedades 
 function __construct($agencia, $codigo, $dataDeCriacao, $titular, $senha, $saldo){
@@ -48,5 +48,6 @@ function __construct($agencia, $codigo, $dataDeCriacao, $titular, $senha, $saldo
 //metodo destrutor finaliza objeto 
 function __destruct(){
     echo"<br>Objeto conta {$this->codigo} de {$this->titular->nome} finalizada ... <br>";
+    }
 }
 ?>

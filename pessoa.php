@@ -27,5 +27,26 @@ class Pessoa
             $this->idade += $anos;
         }
     }
+
+//método construtor inicializa propriedades
+
+function __construct($codigo, $nome, $altura, $idade, $nascimento, $escolaridade, $salario){
+    $this->codigo = $codigo;
+    $this->nome = $nome;
+    $this->idade = $idade;
+    $this->altura = $altura;
+    $this->nascimento = $nascimento;
+    $this->escolaridade = $escolaridade;
+    $this->salario = $salario;
+
+    }
+
+    //método destrutor finaliza objeto
+    
+    function __destruct(){
+
+        echo"<br>Objeto {$this->nome} finalizado ... <br>";
+    }
 }
+
 ?>
