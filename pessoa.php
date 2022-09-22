@@ -9,6 +9,7 @@ class Pessoa
     var $nascimento;
     var $escolaridade;
     var $salaraio;
+    var $x;
 
     //aumenta a altura em centimentros
     function crescer ($centimentros)
@@ -30,14 +31,15 @@ class Pessoa
 
 //método construtor inicializa propriedades
 
-function __construct($codigo, $nome, $altura, $idade, $nascimento, $escolaridade, $salario){
-    $this->codigo = $codigo;
-    $this->nome = $nome;
+function __construct($c, $n, $altura, $idade, $nascimento, $escolaridade, $salario, $x){
+    $this->codigo = $c;
+    $this->nome = $n;
     $this->idade = $idade;
     $this->altura = $altura;
     $this->nascimento = $nascimento;
     $this->escolaridade = $escolaridade;
     $this->salario = $salario;
+    $this->x = $x;
 
     }
 
