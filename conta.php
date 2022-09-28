@@ -50,4 +50,6 @@ function __destruct(){
     echo"<br>Objeto conta {$this->codigo} de {$this->titular->nome} finalizada ... <br>";
     }
 }
+
+function
 ?>
